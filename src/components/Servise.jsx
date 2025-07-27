@@ -41,7 +41,7 @@ export default function Service() {
 
 		<main>
 			<section id='top' className='w-full flex-col flex items-center py-[120px] justify-center px-[10%]' style={{ backgroundImage: `url("/images/Service/background.png")`, backgroundSize: "cover", backgroundPosition: "center" }}>
-				<span className='text-white/40 flex items-center gap-[10px]'><Link className=' brightness-100 hover:border-b-2 border-white' to="/"><img src="/images/Service/Home.png" alt="" /></Link>{" > "} <a href="" className='hover:text-white hover:border-b-2 border-white'>Services</a></span>
+				<span className='text-white/40 flex items-center gap-[10px]'><Link className=' brightness-100 hover:border-b-2 border-white' to="/"><img src="/images/Service/Home.png" alt="" /></Link>{" > "} <p className='hover:text-white hover:border-b-2 border-white'>Services</p></span>
 				<br />
 				<h3 className='text-[72px] font-extrabold text-white'>Our services</h3>
 				<br />
