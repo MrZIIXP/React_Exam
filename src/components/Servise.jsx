@@ -28,7 +28,7 @@ export default function Service() {
 
 	return (<>
 		<header className='w-full px-[10%] fixed top-0 z-[100] text-white left-0 z-100 py-[20px] gap-[60px] flex items-center backdrop-blur-md'>
-			<Link to="/"><img src="public/images/Home/logo.png" alt="" /></Link>
+			<Link to="/"><img src="/images/Home/logo.png" alt="" /></Link>
 			<Link to="/services">Services</Link>
 			<Link to="/case" disabled>Case Studies</Link>
 			<Link to="/about" disabled>About Us</Link>
@@ -40,8 +40,8 @@ export default function Service() {
 		</header>
 
 		<main>
-			<section id='top' className='w-full flex-col flex items-center py-[120px] justify-center px-[10%]' style={{ backgroundImage: `url("public/images/Service/background.png")`, backgroundSize: "cover", backgroundPosition: "center" }}>
-				<span className='text-white/40 flex items-center gap-[10px]'><Link className=' brightness-100 hover:border-b-2 border-white' to="/"><img src="public/images/Service/Home.png" alt="" /></Link>{" > "} <a href="" className='hover:text-white hover:border-b-2 border-white'>Services</a></span>
+			<section id='top' className='w-full flex-col flex items-center py-[120px] justify-center px-[10%]' style={{ backgroundImage: `url("/images/Service/background.png")`, backgroundSize: "cover", backgroundPosition: "center" }}>
+				<span className='text-white/40 flex items-center gap-[10px]'><Link className=' brightness-100 hover:border-b-2 border-white' to="/"><img src="/images/Service/Home.png" alt="" /></Link>{" > "} <a href="" className='hover:text-white hover:border-b-2 border-white'>Services</a></span>
 				<br />
 				<h3 className='text-[72px] font-extrabold text-white'>Our services</h3>
 				<br />
@@ -54,7 +54,7 @@ export default function Service() {
 						<ButtonBasic text="Start now" size={12123} mode={"secondary"} outline={true}></ButtonBasic>
 					</Link>
 					<div className='flex items-center gap-2'>
-						<img src="public/images/Service/iPhone.png" alt="" className='' />
+						<img src="/images/Service/iPhone.png" alt="" className='' />
 						<span className='text-white'><p className='opacity-60'>Call us</p><h1 className='text-[18px]'>(405) 555-0128</h1></span>
 					</div>
 				</div>
@@ -72,13 +72,13 @@ export default function Service() {
 						<ButtonBasic text="Try SEO toolkit" size={580} mode={"light"}></ButtonBasic>
 					</div>
 				</div>
-				<div style={{ backgroundImage: `url("public/images/Home/bg-shape.png")`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
-					<img src="public/images/Home/illustration-1.png" alt="" />
+				<div style={{ backgroundImage: `url("/images/Home/bg-shape.png")`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+					<img src="/images/Home/illustration-1.png" alt="" />
 				</div>
 
 
-				<div style={{ backgroundImage: `url("public/images/Service/shape.png")`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
-					<img src="public/images/Service/illustration.png" alt="" />
+				<div style={{ backgroundImage: `url("/images/Service/shape.png")`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+					<img src="/images/Service/illustration.png" alt="" />
 				</div>
 				<div className='flex flex-col'>
 					<h1 className='text-[32px] font-bold'>Search Engine Optimization</h1>
@@ -102,13 +102,13 @@ export default function Service() {
 						<ButtonBasic text="Try SEO toolkit" size={580} mode={"light"}></ButtonBasic>
 					</div>
 				</div>
-				<div style={{ backgroundImage: `url("public/images/Service/shape (1).png")`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
-					<img src="public/images/Service/illustration (1).png" alt="" />
+				<div style={{ backgroundImage: `url("/images/Service/shape (1).png")`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+					<img src="/images/Service/illustration (1).png" alt="" />
 				</div>
 
 
-				<div style={{ backgroundImage: `url("public/images/Service/shape (2).png")`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
-					<img src="public/images/Service/illustration (2).png" alt="" />
+				<div style={{ backgroundImage: `url("/images/Service/shape (2).png")`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+					<img src="/images/Service/illustration (2).png" alt="" />
 				</div>
 				<div className='flex flex-col'>
 					<h1 className='text-[32px] font-bold'>Content & PR Service</h1>
@@ -133,13 +133,13 @@ export default function Service() {
 					</div>
 				</div>
 
-				<div style={{ backgroundImage: `url("public/images/Service/shape (3).png")`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
-					<img src="public/images/Service/illustration (3).png" alt="" />
+				<div style={{ backgroundImage: `url("/images/Service/shape (3).png")`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+					<img src="/images/Service/illustration (3).png" alt="" />
 				</div>
 			</section>
 
 			<section className='bg-[#1E212C] flex px-[10%] mt-[83px] py-[80px] justify-between'>
-				<img src="public/images/Home/illustration (1).png" alt="" />
+				<img src="/images/Home/illustration (1).png" alt="" />
 				<div>
 					<h1 className='text-[46px] font-extrabold text-white'>Get a Free SEO Analysis!</h1>
 					<br /><br />
@@ -165,27 +165,27 @@ export default function Service() {
 				<br /><br />
 				<div className='flex items-center'>
 					<div className='flex border-r border-gray-300 pr-[22px] flex-col items-center gap-[10px]'>
-						<img src="public/images/Service/ic-cart.png" alt="" />
+						<img src="/images/Service/ic-cart.png" alt="" />
 						<h2 className='text-[20px] font-bold'>E-commerce Websites</h2>
 						<p className='text-[#787A80]'>Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris. </p>
 					</div>
 
 					<div className='flex flex-col items-center gap-[10px] border-x border-gray-300 px-[22px]'>
-						<img src="public/images/Service/ic-website.png" alt="" />
+						<img src="/images/Service/ic-website.png" alt="" />
 						<h2 className='text-[20px] font-bold'>E-commerce Websites</h2>
 						<p className='text-[#787A80]'>Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris. </p>
 
 					</div>
 
 					<div className='flex flex-col items-center gap-[10px] border-x border-gray-300 px-[22px]'>
-						<img src="public/images/Service/ic-suitcase.png" alt="" />
+						<img src="/images/Service/ic-suitcase.png" alt="" />
 						<h2 className='text-[20px] font-bold'>E-commerce Websites</h2>
 						<p className='text-[#787A80]'>Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris. </p>
 					</div>
 
 
 					<div className='flex flex-col items-center gap-[10px] border-l border-gray-300 pl-[22px]'>
-						<img src="public/images/Service/ic-startup.png" alt="" />
+						<img src="/images/Service/ic-startup.png" alt="" />
 						<h2 className='text-[20px] font-bold'>E-commerce Websites</h2>
 						<p className='text-[#787A80]'>Aenean urna dictum adipiscing nec, cras quisque. Nunc in mauris. </p>
 					</div>
@@ -204,34 +204,34 @@ export default function Service() {
 				<div className='w-full'>
 					<Swiper modules={[Navigation]} slidesPerGroup={2} navigation={{ nextEl: ".button-next_1", prevEl: ".button-prev_1" }} slidesPerView={3} loop={true}>
 						<SwiperSlide className='p-5'>
-							<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 90, value: "Engagement", color: "orange" }, { percent: 100, value: "Deliverability", color: "lightgreen" }]} description={"Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%."} title={"Charity organisation"} industry={(<><img src="public/images/Home/image (3).png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
+							<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 90, value: "Engagement", color: "orange" }, { percent: 100, value: "Deliverability", color: "lightgreen" }]} description={"Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%."} title={"Charity organisation"} industry={(<><img src="/images/Home/image (3).png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
 						</SwiperSlide>
 						<SwiperSlide className='p-5'>
-							<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 200, color: "blue", value: "Growth in sales" }, { percent: 1400, color: "transparent", value: "Target investors" }]} description={"With an advanced A/B testing and usability analysis, Createx SEO Agency helps Del Mar see a 400% increase in conversion rate."} title={"Oil and natural resources"} industry={(<><img src="public/images/Home/National Health Logo 1.png" alt="" className='invert-0 brightness-0 group-hover:invert transition-all duration-500' /></>)}></CaseCard>
+							<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 200, color: "blue", value: "Growth in sales" }, { percent: 1400, color: "transparent", value: "Target investors" }]} description={"With an advanced A/B testing and usability analysis, Createx SEO Agency helps Del Mar see a 400% increase in conversion rate."} title={"Oil and natural resources"} industry={(<><img src="/images/Home/National Health Logo 1.png" alt="" className='invert-0 brightness-0 group-hover:invert transition-all duration-500' /></>)}></CaseCard>
 						</SwiperSlide>
 						<SwiperSlide className='p-5'>
-							<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 70, color: "red", value: "Open Rate" }, { percent: 200, color: "orange", value: "Growth in sales" }]} description={"We helped Sunset company break through a noisy industry and better understand their buyer's journey."} title={"Personal care"} industry={(<><img src="public/images/Home/Sunset Realty Logo.png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
+							<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 70, color: "red", value: "Open Rate" }, { percent: 200, color: "orange", value: "Growth in sales" }]} description={"We helped Sunset company break through a noisy industry and better understand their buyer's journey."} title={"Personal care"} industry={(<><img src="/images/Home/Sunset Realty Logo.png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
 						</SwiperSlide>
 						<SwiperSlide className='p-5'>
-							<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 90, value: "Engagement", color: "orange" }, { percent: 100, value: "Deliverability", color: "lightgreen" }]} description={"Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%."} title={"Charity organisation"} industry={(<><img src="public/images/Home/image (3).png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
+							<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 90, value: "Engagement", color: "orange" }, { percent: 100, value: "Deliverability", color: "lightgreen" }]} description={"Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%."} title={"Charity organisation"} industry={(<><img src="/images/Home/image (3).png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
 						</SwiperSlide>
 						<SwiperSlide className='p-5'>
-							<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 200, color: "blue", value: "Growth in sales" }, { percent: 1400, color: "transparent", value: "Target investors" }]} description={"With an advanced A/B testing and usability analysis, Createx SEO Agency helps Del Mar see a 400% increase in conversion rate."} title={"Oil and natural resources"} industry={(<><img src="public/images/Home/National Health Logo 1.png" alt="" className='invert-0 brightness-0 group-hover:invert transition-all duration-500' /></>)}></CaseCard>
+							<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 200, color: "blue", value: "Growth in sales" }, { percent: 1400, color: "transparent", value: "Target investors" }]} description={"With an advanced A/B testing and usability analysis, Createx SEO Agency helps Del Mar see a 400% increase in conversion rate."} title={"Oil and natural resources"} industry={(<><img src="/images/Home/National Health Logo 1.png" alt="" className='invert-0 brightness-0 group-hover:invert transition-all duration-500' /></>)}></CaseCard>
 						</SwiperSlide>
 						<SwiperSlide className='p-5'>
-							<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 70, color: "red", value: "Open Rate" }, { percent: 200, color: "orange", value: "Growth in sales" }]} description={"We helped Sunset company break through a noisy industry and better understand their buyer's journey."} title={"Personal care"} industry={(<><img src="public/images/Home/Sunset Realty Logo.png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
+							<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 70, color: "red", value: "Open Rate" }, { percent: 200, color: "orange", value: "Growth in sales" }]} description={"We helped Sunset company break through a noisy industry and better understand their buyer's journey."} title={"Personal care"} industry={(<><img src="/images/Home/Sunset Realty Logo.png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
 						</SwiperSlide>
 						<SwiperSlide className='p-5'>
-							<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 90, value: "Engagement", color: "orange" }, { percent: 100, value: "Deliverability", color: "lightgreen" }]} description={"Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%."} title={"Charity organisation"} industry={(<><img src="public/images/Home/image (3).png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
+							<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 90, value: "Engagement", color: "orange" }, { percent: 100, value: "Deliverability", color: "lightgreen" }]} description={"Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%."} title={"Charity organisation"} industry={(<><img src="/images/Home/image (3).png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
 						</SwiperSlide>
 						<SwiperSlide className='p-5'>
-							<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 200, color: "blue", value: "Growth in sales" }, { percent: 1400, color: "transparent", value: "Target investors" }]} description={"With an advanced A/B testing and usability analysis, Createx SEO Agency helps Del Mar see a 400% increase in conversion rate."} title={"Oil and natural resources"} industry={(<><img src="public/images/Home/National Health Logo 1.png" alt="" className='invert-0 brightness-0 group-hover:invert transition-all duration-500' /></>)}></CaseCard>
+							<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 200, color: "blue", value: "Growth in sales" }, { percent: 1400, color: "transparent", value: "Target investors" }]} description={"With an advanced A/B testing and usability analysis, Createx SEO Agency helps Del Mar see a 400% increase in conversion rate."} title={"Oil and natural resources"} industry={(<><img src="/images/Home/National Health Logo 1.png" alt="" className='invert-0 brightness-0 group-hover:invert transition-all duration-500' /></>)}></CaseCard>
 						</SwiperSlide>
 						<SwiperSlide className='p-5'>
-							<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 70, color: "red", value: "Open Rate" }, { percent: 200, color: "orange", value: "Growth in sales" }]} description={"We helped Sunset company break through a noisy industry and better understand their buyer's journey."} title={"Personal care"} industry={(<><img src="public/images/Home/Sunset Realty Logo.png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
+							<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 70, color: "red", value: "Open Rate" }, { percent: 200, color: "orange", value: "Growth in sales" }]} description={"We helped Sunset company break through a noisy industry and better understand their buyer's journey."} title={"Personal care"} industry={(<><img src="/images/Home/Sunset Realty Logo.png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
 						</SwiperSlide>
 						<SwiperSlide className='p-5'>
-							<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 70, color: "red", value: "Open Rate" }, { percent: 200, color: "orange", value: "Growth in sales" }]} description={"We helped Sunset company break through a noisy industry and better understand their buyer's journey."} title={"Personal care"} industry={(<><img src="public/images/Home/Sunset Realty Logo.png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
+							<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 70, color: "red", value: "Open Rate" }, { percent: 200, color: "orange", value: "Growth in sales" }]} description={"We helped Sunset company break through a noisy industry and better understand their buyer's journey."} title={"Personal care"} industry={(<><img src="/images/Home/Sunset Realty Logo.png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
 						</SwiperSlide>
 					</Swiper>
 				</div>
@@ -243,12 +243,12 @@ export default function Service() {
 			</section>
 
 			<div className='flex px-[10%] pb-[170px] pt-[120px] justify-between items-center py-[30px] w-full'>
-				<img src="public/images/Home/InDepth Consulting Logo - Untitled Page.png" alt="" />
-				<img src="public/images/Home/Higher Fit Logo - Untitled Page.png" alt="" />
-				<img src="public/images/Home/Sentinal Consulting Logo.png" alt="" />
-				<img src="public/images/Home/Happy Home Logo.png" alt="" />
-				<img src="public/images/Home/For Sale Logo.png" alt="" />
-				<img src="public/images/Home/Sunset Realty Logo.png" alt="" className='grayscale hover:grayscale-0 transition-all duration-500' />
+				<img src="/images/Home/InDepth Consulting Logo - Untitled Page.png" alt="" />
+				<img src="/images/Home/Higher Fit Logo - Untitled Page.png" alt="" />
+				<img src="/images/Home/Sentinal Consulting Logo.png" alt="" />
+				<img src="/images/Home/Happy Home Logo.png" alt="" />
+				<img src="/images/Home/For Sale Logo.png" alt="" />
+				<img src="/images/Home/Sunset Realty Logo.png" alt="" className='grayscale hover:grayscale-0 transition-all duration-500' />
 			</div>
 
 			<section className='flex gap-[30px] pb-[180px] px-[10%] items-start'>
@@ -261,8 +261,8 @@ export default function Service() {
 				</div>
 
 				<div className='ml-auto flex gap-[30px]'>
-					<BlogCard title={"How to Maximize Your ROI Through Scientific SEM?"} category={"SEO"} date={"July 5, 2020"} author={"By Diane Mccoy"} excerpt={"Vulputate vitae pellentesque scelerisque luctus consequat mattis pellentesque dui odio..."} img={"public/images/Home/pic-1.png"}></BlogCard>
-					<BlogCard title={"The Basics of Blogging Search Engine Optimization."} category={"Marketing"} date={"July 2, 2020"} author={"By Diane Mccoy"} excerpt={"Mauris tincidunt sollicitudin tristique odio eget volutpat. Fringilla viverra amet, mi interdum blandit..."} img={"public/images/Home/pic.png"}></BlogCard>
+					<BlogCard title={"How to Maximize Your ROI Through Scientific SEM?"} category={"SEO"} date={"July 5, 2020"} author={"By Diane Mccoy"} excerpt={"Vulputate vitae pellentesque scelerisque luctus consequat mattis pellentesque dui odio..."} img={"/images/Home/pic-1.png"}></BlogCard>
+					<BlogCard title={"The Basics of Blogging Search Engine Optimization."} category={"Marketing"} date={"July 2, 2020"} author={"By Diane Mccoy"} excerpt={"Mauris tincidunt sollicitudin tristique odio eget volutpat. Fringilla viverra amet, mi interdum blandit..."} img={"/images/Home/pic.png"}></BlogCard>
 				</div>
 			</section>
 
@@ -272,16 +272,16 @@ export default function Service() {
 			<div className="max-w-[1240px] mx-auto flex justify-between gap-[32px]">
 				<div className=" flex flex-col gap-[24px] w-[281px]">
 					<div className="flex items-center gap-[8px]">
-						<img src="public/images/Home/logo.png" alt="Createx" className="h-[32px]" />
+						<img src="/images/Home/logo.png" alt="Createx" className="h-[32px]" />
 					</div>
 					<p className="text-[#787A80] text-[14px] leading-[21px]">
 						Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.
 					</p>
 					<div className="flex gap-[16px]">
-						<img src="public/images/Home/Facebook.png" />
-						<img src="public/images/Home/Linked-In.png" />
-						<img src="public/images/Home/Twitter.png" />
-						<img src="public/images/Home/Instagram.png" />
+						<img src="/images/Home/Facebook.png" />
+						<img src="/images/Home/Linked-In.png" />
+						<img src="/images/Home/Twitter.png" />
+						<img src="/images/Home/Instagram.png" />
 					</div>
 				</div>
 
@@ -309,8 +309,8 @@ export default function Service() {
 				<div className="flex flex-col gap-[16px]">
 					<h4 className="font-bold text-white text-[16px] leading-[24px]">CONTACT US</h4>
 					<ul className="flex flex-col gap-[8px]">
-						<li className='flex gap-2 items-center'><img src="public/images/Home/iPhone.png" alt="" /> (405) 555-0128</li>
-						<li className='flex gap-2 items-center'><img src="public/images/Home/Union.png" alt="" />hello@createx.com</li>
+						<li className='flex gap-2 items-center'><img src="/images/Home/iPhone.png" alt="" /> (405) 555-0128</li>
+						<li className='flex gap-2 items-center'><img src="/images/Home/Union.png" alt="" />hello@createx.com</li>
 					</ul>
 				</div>
 				<div className="flex flex-col max-w-[280px] gap-[16px]">
@@ -322,10 +322,10 @@ export default function Service() {
 
 			<div className="max-w-[1240px] mx-auto mt-[40px] flex justify-center items-center flex-wrap gap-[16px] border-t border-[#E5E8ED] pt-[24px]">
 				<div className="flex gap-[24px] items-center">
-					<img src="public/images/Home/award.png" />
-					<img src="public/images/Home/award-1.png" />
-					<img src="public/images/Home/award-2.png" />
-					<img src="public/images/Home/award-3.png" />
+					<img src="/images/Home/award.png" />
+					<img src="/images/Home/award-1.png" />
+					<img src="/images/Home/award-2.png" />
+					<img src="/images/Home/award-3.png" />
 				</div>
 				<p className="text-white text-[14px] leading-[21px] ml-auto">GO TO TOP</p>
 				<a href="#top">

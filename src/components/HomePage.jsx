@@ -73,7 +73,7 @@ export default function HomePage() {
 
 	return (<>
 		<header className='w-full px-[10%] fixed top-0 z-[100] text-white left-0 z-100 py-[20px] gap-[60px] flex items-center backdrop-blur-md'>
-			<Link to="/"><img src="public/images/Home/logo.png" alt="" /></Link>
+			<Link to="/"><img src="/images/Home/logo.png" alt="" /></Link>
 			<Link to="/services">Services</Link>
 			<Link to="/case" disabled>Case Studies</Link>
 			<Link to="/about" disabled>About Us</Link>
@@ -85,7 +85,7 @@ export default function HomePage() {
 		</header>
 
 		<main>
-			<section id='top' className='w-full h-[1000px] flex-col flex items-center justify-center px-[10%]' style={{ backgroundImage: `url("public/images/Home/background-1.png")`, backgroundSize: "cover", backgroundPosition: "center" }}>
+			<section id='top' className='w-full h-[1000px] flex-col flex items-center justify-center px-[10%]' style={{ backgroundImage: `url("/images/Home/background-1.png")`, backgroundSize: "cover", backgroundPosition: "center" }}>
 				<div className='flex items-start my-auto mt-[20%]'>
 					<div>
 						<h1 className='font-extrabold text-[52px] text-white'>Best <span className='text-[#7772F1]'>SEO & Marketing</span> <br /> Solutions for You</h1>
@@ -95,26 +95,26 @@ export default function HomePage() {
 								<ButtonBasic text="Get a free analysis" mode={"secondary"} size={1024} outline={true}></ButtonBasic>
 							</Link>
 							<div className='flex items-center'>
-								<img src="public/images/Home/hover.png" alt="" className='hover:scale-[0.8] transition-all duration-300' />
+								<img src="/images/Home/hover.png" alt="" className='hover:scale-[0.8] transition-all duration-300' />
 								<p className='text-[16px] font-medium text-white'>Play video</p>
 							</div>
 						</div>
 					</div>
-					<img src="public/images/Home/illustration.png" alt="" />
+					<img src="/images/Home/illustration.png" alt="" />
 				</div>
 				<div className='flex text-white text-[20px] mt-auto text-bold justify-between items-center py-[90px] w-full'>
 					<div className='flex gap-5 items-center'>
-						<img src="public/images/Home/ic-chart.png" alt="" />
+						<img src="/images/Home/ic-chart.png" alt="" />
 						<p>SEO Content Strategy</p>
 					</div>
 					<p className='text-gray-500 text-[30px]'>|</p>
 					<div className='flex gap-5 items-center'>
-						<img src="public/images/Home/ic-speaker.png" alt="" />
+						<img src="/images/Home/ic-speaker.png" alt="" />
 						<p>Content Marketing</p>
 					</div>
 					<p className='text-gray-500 text-[30px]'>|</p>
 					<div className='flex gap-5 items-center'>
-						<img src="public/images/Home/ic-computer.png" alt="" />
+						<img src="/images/Home/ic-computer.png" alt="" />
 						<p>Website & Social Media Marketing</p>
 					</div>
 				</div>
@@ -125,39 +125,39 @@ export default function HomePage() {
 					<p className='text-[24px] font-bold max-w-[600px]'>Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.</p>
 					<div className='grid w-full max-w-[500px] grid-cols-2 gap-y-[32px] gap-x-[40px]'>
 						<div className='flex items-center gap-[16px]'>
-							<img src="public/images/Home/image-3.png" alt="" />
+							<img src="/images/Home/image-3.png" alt="" />
 							<p className='text-[14px] text-[#424551]'>Top SEO Companies 2020 by Clutch</p>
 						</div>
 
 						<div className='flex items-center gap-[16px]'>
-							<img src="public/images/Home/image-2.png" alt="" />
+							<img src="/images/Home/image-2.png" alt="" />
 							<p className='text-[14px] text-[#424551]'>Top SEO Companies 2020 by Clutch</p>
 						</div>
 
 						<div className='flex items-center gap-[16px]'>
-							<img src="public/images/Home/image-1.png" alt="" />
+							<img src="/images/Home/image-1.png" alt="" />
 							<p className='text-[14px] text-[#424551]'>Top SEO Companies 2020 by Clutch</p>
 						</div>
 
 						<div className='flex items-center gap-[16px]'>
-							<img src="public/images/Home/image-4.png" alt="" />
+							<img src="/images/Home/image-4.png" alt="" />
 							<p className='text-[14px] text-[#424551]'>Top SEO Companies 2020 by Clutch</p>
 						</div>
 					</div>
 				</div>
 
 				<div className='flex justify-between items-center py-[30px] w-full'>
-					<img src="public/images/Home/InDepth Consulting Logo - Untitled Page.png" alt="" />
-					<img src="public/images/Home/Higher Fit Logo - Untitled Page.png" alt="" />
-					<img src="public/images/Home/Sentinal Consulting Logo.png" alt="" />
-					<img src="public/images/Home/Happy Home Logo.png" alt="" />
-					<img src="public/images/Home/For Sale Logo.png" alt="" />
-					<img src="public/images/Home/Sunset Realty Logo.png" alt="" className='grayscale hover:grayscale-0 transition-all duration-500' />
+					<img src="/images/Home/InDepth Consulting Logo - Untitled Page.png" alt="" />
+					<img src="/images/Home/Higher Fit Logo - Untitled Page.png" alt="" />
+					<img src="/images/Home/Sentinal Consulting Logo.png" alt="" />
+					<img src="/images/Home/Happy Home Logo.png" alt="" />
+					<img src="/images/Home/For Sale Logo.png" alt="" />
+					<img src="/images/Home/Sunset Realty Logo.png" alt="" className='grayscale hover:grayscale-0 transition-all duration-500' />
 				</div>
 			</section>
 
 			<section className='w-full'>
-				<main className='w-full' style={{ backgroundImage: `url("public/images/Home/Background.png")`, backgroundSize: "100% 100%", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+				<main className='w-full' style={{ backgroundImage: `url("/images/Home/Background.png")`, backgroundSize: "100% 100%", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
 					<section className='py-[131px] px-[10%] w-full flex gap-[105px]'>
 						<div className='w-[50%]'>
 							<h1 className='text-[46px] font-bold '>Createx Agency </h1>
@@ -166,11 +166,11 @@ export default function HomePage() {
 							<br /><br />
 							<ButtonBasic text="More about us" size={530} mode="light"></ButtonBasic>
 						</div>
-						<img src="public/images/Home/image (1).png" alt="" className='w-[50%]' />
+						<img src="/images/Home/image (1).png" alt="" className='w-[50%]' />
 
 					</section>
 
-					<div className='w-full flex justify-center pb-[160px]'><img src="public/images/Home/Figures.png" alt="" /></div>
+					<div className='w-full flex justify-center pb-[160px]'><img src="/images/Home/Figures.png" alt="" /></div>
 
 					<section className='w-full px-[10%] flex flex-col items-center'>
 						<h1 className='text-[46px] font-bold'>Our services</h1>
@@ -314,15 +314,15 @@ export default function HomePage() {
 									<ButtonBasic text="Try SEO toolkit" size={1024} mode={"light"}></ButtonBasic>
 								</div>
 							</div>
-							<div style={{ backgroundImage: "url('public/images/Home/bg-shape.png')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
-								<img src="public/images/Home/illustration-1.png" alt="" />
+							<div style={{ backgroundImage: "url('/images/Home/bg-shape.png')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+								<img src="/images/Home/illustration-1.png" alt="" />
 							</div>
 						</div>
 
 					</section>
 
 					<section className='bg-[#1E212C] flex px-[10%] mt-[83px] py-[80px] justify-between'>
-						<img src="public/images/Home/illustration (1).png" alt="" />
+						<img src="/images/Home/illustration (1).png" alt="" />
 						<div>
 							<h1 className='text-[46px] font-extrabold text-white'>Get a Free SEO Analysis!</h1>
 							<br /><br />
@@ -354,7 +354,7 @@ export default function HomePage() {
 							<br /><br />
 							<ButtonBasic text="Discover more" arrow={true} size={1024} mode={"light"}></ButtonBasic>
 						</div>
-						<img src="public/images/Home/illustration (2).png" alt="" />
+						<img src="/images/Home/illustration (2).png" alt="" />
 					</section>
 
 					<section className='bg-[#E5E8ED] px-[5%] py-[80px]'>
@@ -370,17 +370,17 @@ export default function HomePage() {
 							<Swiper modules={[Navigation]} slidesPerGroup={2} navigation={{ nextEl: ".button-next_1", prevEl: ".button-prev_1" }} slidesPerView={3} loop={true}>
 								<SwiperSlide className='p-5'>
 									<div onClick={() => navigator(`case/:1`)}>
-										<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 90, value: "Engagement", color: "orange" }, { percent: 100, value: "Deliverability", color: "lightgreen" }]} description={"Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%."} title={"Charity organisation"} industry={(<><img src="public/images/Home/image (3).png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
+										<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 90, value: "Engagement", color: "orange" }, { percent: 100, value: "Deliverability", color: "lightgreen" }]} description={"Createx SEO Agency helped National Inc. increase their MQL to SQL conversion rate by 300%."} title={"Charity organisation"} industry={(<><img src="/images/Home/image (3).png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className='p-5'>
 									<div onClick={() => navigator(`case/:2`)}>
-										<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 200, color: "blue", value: "Growth in sales" }, { percent: 1400, color: "transparent", value: "Target investors" }]} description={"With an advanced A/B testing and usability analysis, Createx SEO Agency helps Del Mar see a 400% increase in conversion rate."} title={"Oil and natural resources"} industry={(<><img src="public/images/Home/National Health Logo 1.png" alt="" className='invert-0 brightness-0 group-hover:invert transition-all duration-500' /></>)}></CaseCard>
+										<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 200, color: "blue", value: "Growth in sales" }, { percent: 1400, color: "transparent", value: "Target investors" }]} description={"With an advanced A/B testing and usability analysis, Createx SEO Agency helps Del Mar see a 400% increase in conversion rate."} title={"Oil and natural resources"} industry={(<><img src="/images/Home/National Health Logo 1.png" alt="" className='invert-0 brightness-0 group-hover:invert transition-all duration-500' /></>)}></CaseCard>
 									</div>
 								</SwiperSlide>
 								<SwiperSlide className='p-5'>
 									<div onClick={() => navigator(`case/:3`)}>
-										<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 70, color: "red", value: "Open Rate" }, { percent: 200, color: "orange", value: "Growth in sales" }]} description={"We helped Sunset company break through a noisy industry and better understand their buyer's journey."} title={"Personal care"} industry={(<><img src="public/images/Home/Sunset Realty Logo.png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
+										<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 70, color: "red", value: "Open Rate" }, { percent: 200, color: "orange", value: "Growth in sales" }]} description={"We helped Sunset company break through a noisy industry and better understand their buyer's journey."} title={"Personal care"} industry={(<><img src="/images/Home/Sunset Realty Logo.png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
 									</div>
 								</SwiperSlide>
 							</Swiper>
@@ -398,39 +398,39 @@ export default function HomePage() {
 						<div className='flex gap-[40px] items-center justify-center'>
 							<div className='flex flex-col gap-[24px]'>
 								<card className="p-[40px] hover:shadow-lg transition-shadow duration-300 rounded text-center flex flex-col border bg-white items-center">
-									<img src="public/images/Home/ic-speaker.png" alt="" />
+									<img src="/images/Home/ic-speaker.png" alt="" />
 									<h1 className='font-bold text-[20px] mt-[10px]'>Social Advertising Experts</h1>
 									<p className='text-[16px] text-gray-400 mt-[10px]'>Culpa nostrud commodo ea consequat aliquip reprehenderit. Veniam velit nostrud aliquip sunt.</p>
 								</card>
 
 								<card className="p-[40px] hover:shadow-lg transition-shadow duration-300 rounded text-center flex flex-col border bg-white items-center">
-									<img src="public/images/Home/ic-target.png" alt="" />
+									<img src="/images/Home/ic-target.png" alt="" />
 									<h1 className='font-bold text-[20px] mt-[10px]'>ROI Focused Campaigns</h1>
 									<p className='text-[16px] text-gray-400 mt-[10px]'>Cursus sit eu viverra suspendisse eu quisque enim est tortor. Mauris ornare convallis nisi diam imperdiet. </p>
 								</card>
 
 								<card className="p-[40px] hover:shadow-lg transition-shadow duration-300 rounded text-center flex flex-col border bg-white items-center">
-									<img src="public/images/Home/ic-checklist.png" alt="" />
+									<img src="/images/Home/ic-checklist.png" alt="" />
 									<h1 className='font-bold text-[20px] mt-[10px]'>Monthly Reporting</h1>
 									<p className='text-[16px] text-gray-400 mt-[10px]'>Aenean urna dictum adipiscing nec, cras quisque. Nunc in odio ultricies ornare ornare nunc venenatis mauris. </p>
 								</card>
 							</div>
-							<img src="public/images/Home/illustration (3).png" alt="" />
+							<img src="/images/Home/illustration (3).png" alt="" />
 							<div className='flex flex-col gap-[24px]'>
 								<card className="p-[40px] hover:shadow-lg transition-shadow duration-300 rounded text-center flex flex-col border bg-white items-center">
-									<img src="public/images/Home/ic-chat.png" alt="" />
+									<img src="/images/Home/ic-chat.png" alt="" />
 									<h1 className='font-bold text-[20px] mt-[10px]'>Quality Customer Service</h1>
 									<p className='text-[16px] text-gray-400 mt-[10px]'>Sed nunc scelerisque ipsum accumsan, proin nunc euismod purus. Dictum tortor, pellentesque vel integer amet. </p>
 								</card>
 
 								<card className="p-[40px] hover:shadow-lg transition-shadow duration-300 rounded text-center flex flex-col border bg-white items-center">
-									<img src="public/images/Home/ic-view.png" alt="" />
+									<img src="/images/Home/ic-view.png" alt="" />
 									<h1 className='font-bold text-[20px] mt-[10px]'>Complete SEO Transparency</h1>
 									<p className='text-[16px] text-gray-400 mt-[10px]'>Culpa nostrud commodo ea consequat aliquip reprehenderit. Ve niam velit nostrud aliquip sunt.</p>
 								</card>
 
 								<card className="p-[40px] hover:shadow-lg transition-shadow duration-300 rounded text-center flex flex-col border bg-white items-center">
-									<img src="public/images/Home/ic-like.png" alt="" />
+									<img src="/images/Home/ic-like.png" alt="" />
 									<h1 className='font-bold text-[20px] mt-[10px]'>We're a True Partner</h1>
 									<p className='text-[16px] text-gray-400 mt-[10px]'>Quis sed malesuada tincidunt amet, vitae mi justo elementum eu. Dui gravida id elementum dolor sed elementum, risus. </p>
 								</card>
@@ -454,11 +454,11 @@ export default function HomePage() {
 
 					<section className='flex flex-col px-[10%] pt-[180px] pb-[100px] items-center'>
 						<h1 className='text-[46px] font-bold'>What our clients say</h1>
-						<div style={{ backgroundImage: `url("public/images/Home/background (1).png")`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} className='flex justify-center py-[80px] w-full items-center gap-[60px]'>
+						<div style={{ backgroundImage: `url("/images/Home/background (1).png")`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} className='flex justify-center py-[80px] w-full items-center gap-[60px]'>
 							<button className='prev font-bold text-[30px] w-[60px] h-[50px] leading-[0px] rounded-full active:bg-[#7772F1] active:text-white flex justify-center items-center'>{"←"}</button>
 							<Swiper modules={[Navigation]} spaceBetween={50} loop={true} slidesPerView={1} className='w-full' navigation={{ nextEl: ".next", prevEl: ".prev" }}>
 								{[
-									{ name: "Courtney Alexander", position: "Position, Company name", img: "public/images/Home/image (2).png", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in." },
+									{ name: "Courtney Alexander", position: "Position, Company name", img: "/images/Home/image (2).png", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in." },
 									{
 										name: "Mason Thompson",
 										position: "Senior Developer, FlowTech",
@@ -532,8 +532,8 @@ export default function HomePage() {
 						</div>
 
 						<div className='ml-auto flex gap-[30px]'>
-							<BlogCard title={"How to Maximize Your ROI Through Scientific SEM?"} category={"SEO"} date={"July 5, 2020"} author={"By Diane Mccoy"} excerpt={"Vulputate vitae pellentesque scelerisque luctus consequat mattis pellentesque dui odio..."} img={"public/images/Home/pic-1.png"}></BlogCard>
-							<BlogCard title={"The Basics of Blogging Search Engine Optimization."} category={"Marketing"} date={"July 2, 2020"} author={"By Diane Mccoy"} excerpt={"Mauris tincidunt sollicitudin tristique odio eget volutpat. Fringilla viverra amet, mi interdum blandit..."} img={"public/images/Home/pic.png"}></BlogCard>
+							<BlogCard title={"How to Maximize Your ROI Through Scientific SEM?"} category={"SEO"} date={"July 5, 2020"} author={"By Diane Mccoy"} excerpt={"Vulputate vitae pellentesque scelerisque luctus consequat mattis pellentesque dui odio..."} img={"/images/Home/pic-1.png"}></BlogCard>
+							<BlogCard title={"The Basics of Blogging Search Engine Optimization."} category={"Marketing"} date={"July 2, 2020"} author={"By Diane Mccoy"} excerpt={"Mauris tincidunt sollicitudin tristique odio eget volutpat. Fringilla viverra amet, mi interdum blandit..."} img={"/images/Home/pic.png"}></BlogCard>
 						</div>
 					</section>
 				</main>
@@ -544,16 +544,16 @@ export default function HomePage() {
 			<div className="max-w-[1240px] mx-auto flex justify-between gap-[32px]">
 				<div className=" flex flex-col gap-[24px] w-[281px]">
 					<div className="flex items-center gap-[8px]">
-						<img src="public/images/Home/logo.png" alt="Createx" className="h-[32px]" />
+						<img src="/images/Home/logo.png" alt="Createx" className="h-[32px]" />
 					</div>
 					<p className="text-[#787A80] text-[14px] leading-[21px]">
 						Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through a wealth of performance data and market research. We create science-based SEO strategies to empower our clients.
 					</p>
 					<div className="flex gap-[16px]">
-						<img src="public/images/Home/Facebook.png" />
-						<img src="public/images/Home/Linked-In.png" />
-						<img src="public/images/Home/Twitter.png" />
-						<img src="public/images/Home/Instagram.png" />
+						<img src="/images/Home/Facebook.png" />
+						<img src="/images/Home/Linked-In.png" />
+						<img src="/images/Home/Twitter.png" />
+						<img src="/images/Home/Instagram.png" />
 					</div>
 				</div>
 
@@ -581,8 +581,8 @@ export default function HomePage() {
 				<div className="flex flex-col gap-[16px]">
 					<h4 className="font-bold text-white text-[16px] leading-[24px]">CONTACT US</h4>
 					<ul className="flex flex-col gap-[8px]">
-						<li className='flex gap-2 items-center'><img src="public/images/Home/iPhone.png" alt="" /> (405) 555-0128</li>
-						<li className='flex gap-2 items-center'><img src="public/images/Home/Union.png" alt="" />hello@createx.com</li>
+						<li className='flex gap-2 items-center'><img src="/images/Home/iPhone.png" alt="" /> (405) 555-0128</li>
+						<li className='flex gap-2 items-center'><img src="/images/Home/Union.png" alt="" />hello@createx.com</li>
 					</ul>
 				</div>
 				<div className="flex flex-col max-w-[280px] gap-[16px]">
@@ -594,10 +594,10 @@ export default function HomePage() {
 
 			<div className="max-w-[1240px] mx-auto mt-[40px] flex justify-center items-center flex-wrap gap-[16px] border-t border-[#E5E8ED] pt-[24px]">
 				<div className="flex gap-[24px] items-center">
-					<img src="public/images/Home/award.png" />
-					<img src="public/images/Home/award-1.png" />
-					<img src="public/images/Home/award-2.png" />
-					<img src="public/images/Home/award-3.png" />
+					<img src="/images/Home/award.png" />
+					<img src="/images/Home/award-1.png" />
+					<img src="/images/Home/award-2.png" />
+					<img src="/images/Home/award-3.png" />
 				</div>
 				<p className="text-white text-[14px] leading-[21px] ml-auto">GO TO TOP</p>
 				<a href="#top">

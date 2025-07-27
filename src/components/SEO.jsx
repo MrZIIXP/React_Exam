@@ -255,7 +255,7 @@ export default function SEO() {
 							<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 70, color: "red", value: "Open Rate" }, { percent: 200, color: "orange", value: "Growth in sales" }]} description={"We helped Sunset company break through a noisy industry and better understand their buyer's journey."} title={"Personal care"} industry={(<><img src="/images/Home/Sunset Realty Logo.png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
 						</SwiperSlide>
 						<SwiperSlide className='p-5'>
-							<CaseCard backgroundImage={"public/images/Home/image.png"} data={[{ percent: 70, color: "red", value: "Open Rate" }, { percent: 200, color: "orange", value: "Growth in sales" }]} description={"We helped Sunset company break through a noisy industry and better understand their buyer's journey."} title={"Personal care"} industry={(<><img src="public/images/Home/Sunset Realty Logo.png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
+							<CaseCard backgroundImage={"/images/Home/image.png"} data={[{ percent: 70, color: "red", value: "Open Rate" }, { percent: 200, color: "orange", value: "Growth in sales" }]} description={"We helped Sunset company break through a noisy industry and better understand their buyer's journey."} title={"Personal care"} industry={(<><img src="/images/Home/Sunset Realty Logo.png" alt="" className='group-hover:invert group-hover:brightness-0 transition-all duration-500' /></>)}></CaseCard>
 						</SwiperSlide>
 					</Swiper>
 				</div>
@@ -408,7 +408,7 @@ export default function SEO() {
 							<ButtonBasic text="Try SEO toolkit" size={1024} mode={"light"}></ButtonBasic>
 						</div>
 					</div>
-					<div style={{ backgroundImage: "url('public/images/Home/bg-shape.png')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
+					<div style={{ backgroundImage: "url('/images/Home/bg-shape.png')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }}>
 						<img src="/images/Home/illustration-1.png" alt="" />
 					</div>
 				</div>
